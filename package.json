@@ -1,0 +1,16 @@
+{
+  "name": "lambda-node",
+  "version": "1.0.0",
+  "description": "Lambda to serve static webpage",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

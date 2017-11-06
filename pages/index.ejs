@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <!--css file-->
+    <link rel="stylesheet" href="somescript?name=main.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--javascript files-->
+    <script src="somescript"></script>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="row">
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons">android</i></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container">
+            <div class="parallax"><img src="https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637_1280.jpg"></div>
+          </div>
+          <div class="section white">
+            <div class="row container">
+              <h2 class="header">Serverless Website</h2>
+              <!-- <p class="grey-text text-darken-3 lighten-3"> -->
+                  <blockquote>Made by using 
+                      <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                  </blockquote>  
+                  <blockquote>Amazon API Gateway, Lambda, Nodejs and EJS template </blockquote>
+                  <blockquote>
+                        You can serve web content from a Amazon Lambda function using the Amazon API Gateway via HTTP GET </blockquote>
+                    <blockquote>
+                        The function should return the HTTP Content-Type as "text/html". Function can be parameterized to serve multiple pages</blockquote>
+                    <blockquote>
+                        Templating engine like EJS can be used to load some dynamic content thats evaluated on the server side </blockquote>  
+                    </div>
+          </div>
+          <div class="parallax-container">
+            <div class="parallax"><img src="https://cdn.pixabay.com/photo/2017/02/20/14/18/business-2082639_1280.jpg"></div>
+          </div>
+      
+          
+    <!-- <div class="parallax-container">
+        <div class="parallax">
+            <img src="http://orig00.deviantart.net/2e09/f/2008/204/0/2/batman_by_dustykat.png"></div>
+    </div>
+    <div class="row">
+        <h2 id="title">Serverless Website</h2>
+        <div id="points" class="z-depth-2 col s12" style="height:60%">
+            <blockquote>
+                Multiple end points can be created to serve multiple pages </blockquote>
+            <blockquote>
+                Function can be parameterized to serve multiple static pages</blockquote>
+            <blockquote>
+                To use Javascript, it has to be a function and it needs to be linked in the html header</blockquote>
+            <ul>
+                <li><a href="http://www.google.com">Google Home Page</a></li>
+                <li><a href="http://wwww.yahoo.com">Yahoo Home Page</a></li>
+            </ul>
+        </div> -->
+
+        <p class="right"><i>The home page is created on <%= new Date() %> using serverless framework (Amazon API Gateway, Lambda, Nodejs and EJS template)
+        </i>
+        </p>
+        <!-- <p id="test2">This is another paragraph.</p>
+      
+      <p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+      
+      <button id="btn1">Set Text</button>
+      <button id="btn2">Set HTML</button>
+      <button id="btn3">Set Value</button> -->
+    </div>
+</body>
+
+</html>
